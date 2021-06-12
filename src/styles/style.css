@@ -1,7 +1,17 @@
 @tailwind base;
 
+@font-face {
+  font-family: "Antro Vectra";
+  src: local("Antro Vectra"), url("/fonts/Antro_Vectra.otf") format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&display=swap");
+
 body {
-  @apply .bg-white .font-sans .antialiased;
+  @apply .bg-black .text-white .font-sans .antialiased;
+  font-family: "Newsreader", serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @tailwind components;
@@ -12,14 +22,6 @@ body {
   @apply .max-w-screen-xl .mx-auto .px-4;
 }
 
-@screen md {
-  .container {
-    @apply .px-6;
-  }
-}
-
-@screen lg {
-  .container {
-    @apply .px-8;
-  }
+.signature {
+  font-family: "Antro Vectra";
 }

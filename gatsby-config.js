@@ -16,14 +16,14 @@ module.exports = {
     ],
     links: {
       facebook: "https://www.facebook.com/",
-      instagram: "https://www.instagram.com/",
+      instagram: "https://www.instagram.com/streetpawdography",
       pinterest: "https://pinterest.com/",
       twitter: "https://twitter.com/",
     },
     locale: "en",
-    title: `John Doe`,
-    description: `Photography portfolio of John Doe`,
-    author: `@johndoe`,
+    title: `Rebecca Murray`,
+    description: `Portfolio of Rebecca Murray`,
+    author: `@rebeccamurray`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `johndoe`,
+        name: `Rebecca Murray`,
+        short_name: `rebecca`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#3182ce`,
