@@ -15,8 +15,10 @@ html,
 body {
   @apply .bg-black .text-white .font-sans .antialiased;
   font-family: "Newsreader", serif;
-  padding-left: 2rem;
-  padding-right: 2rem;
+}
+
+body {
+  padding: 0 1rem;
 }
 
 .container {
