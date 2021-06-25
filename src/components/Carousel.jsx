@@ -1,32 +1,37 @@
 import Img from "gatsby-image"
 import PropTypes from "prop-types"
-import React from "react"
-import Swiper from "react-id-swiper"
+import React, { useEffect } from "react"
+import Swiper from "swiper/bundle"
 
-import "swiper/css/swiper.css"
+import "swiper/swiper-bundle.css"
 import "./Carousel.css"
 
 export const Carousel = ({ images }) => {
-  const swiperParams = {
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true
-    },
-  }
+  useEffect(() => {
+    new Swiper(".swiper-container", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    })
+  }, [])
+
   return (
-    <Swiper {...swiperParams}>
-      {images.map(image => {
-        return (
-          <div key={`slide_${image.id}`}>
-            <Img
-              fluid={image.localFile.childImageSharp.fluid}
-              alt={image.title}
-            />
-          </div>
-        )
-      })}
-    </Swiper>
+    <div className="swiper-container">
+      <div className="swiper-wrapper">
+        {images.map(image => {
+          return (
+            <div key={`slide_${image.id}`} className="swiper-slide">
+              <Img
+                fluid={image.localFile.childImageSharp.fluid}
+                alt={image.title}
+              />
+            </div>
+          )
+        })}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   )
 }
 

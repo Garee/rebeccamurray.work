@@ -1,7 +1,3 @@
-.swiper-container {
-  --swiper-theme-color: theme("colors.yellow.500");
-}
-
 .swiper-pagination-bullet {
   @apply .bg-white;
 }
