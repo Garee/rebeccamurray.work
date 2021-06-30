@@ -1,4 +1,4 @@
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import React from "react"
 import Layout from "../layouts/Layout"
@@ -10,8 +10,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SiteMetadata title="Home" description="Portfolio of Rebecca Murray" />
-
-      <Img fluid={gallery[0].localFile.childImageSharp.fluid} alt={name} />
+      <Link to="/Dinner%20For%20One">
+        <Img fluid={gallery[0].localFile.childImageSharp.fluid} alt={name} />
+      </Link>
     </Layout>
   )
 }
