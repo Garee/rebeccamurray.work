@@ -48,7 +48,7 @@
     "prettier": "1.19.1"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "echo 'Done!'",
     "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
