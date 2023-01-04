@@ -191,7 +191,6 @@ a:focus {
   height: 100%;
   max-height: 176px;
   transition: max-height 0.4s ease-out;
-  z-index: 999;
 }
 
 .logo {
