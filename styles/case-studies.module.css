@@ -1,0 +1,17 @@
+.caseStudiesContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+    width: 100%;
+    padding-inline: var(--side-padding);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background: var(--background-hex);
+}
+
+@media only screen and (max-width: 960px) {
+    .caseStudiesContainer {
+        align-items: center;
+        padding-inline: 1rem;
+    }
+}

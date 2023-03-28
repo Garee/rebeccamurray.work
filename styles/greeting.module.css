@@ -1,0 +1,39 @@
+.greetingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--content-background-hex);
+    padding-inline: var(--side-padding);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.greetingGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.greetingMessage {
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.greetingImage {
+    position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+    .greetingContainer {
+        padding-inline: 1rem;
+    }
+
+    .greetingGrid {
+        display: flex;
+    }
+
+    .greetingImage {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+#window1,
+#window-1 {
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+#clouds {
+    animation-duration: 3s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#wheel1,
+#wheel2 {
+    animation: wheel-spin 2s infinite linear;
+    transform-origin: center center;
+    transform-box: fill-box;
+}
+
+@keyframes color-change {
+    from {
+        fill: #a2a2a2;
+    }
+
+    to {
+        fill: #f2ba00;
+    }
+}
+
+@keyframes wheel-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes cloud-move {
+    from {
+        transform: translate(0, 400px);
+    }
+
+    to {
+        transform: translate(1600px, 400px);
+    }
+}

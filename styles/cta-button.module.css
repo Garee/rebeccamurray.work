@@ -1,0 +1,23 @@
+.ctaButton {
+    width: 100%;
+    max-width: 350px;
+    font-size: 18px;
+    padding: 1rem;
+    background-color: var(--foreground-hex);
+    color: var(--background-hex);
+    border-radius: var(--border-radius);
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    background-color: var(--highlight-color-hex);
+    animation: scale 200ms ease-in-out forwards;
+}
+
+@keyframes scale {
+    to {
+        transform: scale(1.1);
+    }
+}

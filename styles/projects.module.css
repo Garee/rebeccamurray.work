@@ -1,0 +1,13 @@
+.projectsContainer > div {
+    background: var(--content-background-hex);
+}
+
+.projectsContainer h2 {
+    font-size: 54px;
+}
+
+@media only screen and (max-width: 960px) {
+    .projectsContainer h2 {
+        font-size: 36px;
+    }
+}

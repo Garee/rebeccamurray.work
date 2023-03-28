@@ -1,0 +1,19 @@
+.recentWorkContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--content-background-hex);
+    padding-inline: var(--side-padding);
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .recentWorkContainer {
+        align-items: center;
+        padding-inline: 1rem;
+    }
+
+    .recentWorkContainer h2 {
+        text-align: center;
+    }
+}

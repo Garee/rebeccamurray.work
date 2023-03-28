@@ -1,22 +1,29 @@
 {
-  "name": "rebeccamurray.work",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.15.10",
-    "@types/react": "18.0.30",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.2"
-  }
+    "name": "rebeccamurray.work",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "export": "next export"
+    },
+    "dependencies": {
+        "@anatoliygatt/dark-mode-toggle": "^1.0.1",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@types/node": "18.15.10",
+        "@types/react": "18.0.30",
+        "@types/react-burger-menu": "^2.8.3",
+        "@types/react-dom": "18.0.11",
+        "eslint": "8.36.0",
+        "eslint-config-next": "13.2.4",
+        "next": "13.2.4",
+        "react": "18.2.0",
+        "react-burger-menu": "^3.0.9",
+        "react-dom": "18.2.0",
+        "theme-toggles": "^4.10.1",
+        "typescript": "5.0.2"
+    }
 }

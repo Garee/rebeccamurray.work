@@ -1,0 +1,145 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    background-color: var(--content-background-hex);
+    padding-inline: var(--side-padding);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.processContainer {
+    display: flex;
+    background-color: var(--background-hex);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.projectGrid {
+    display: grid;
+    min-height: 400px;
+    grid-template-columns: 50% 50%;
+}
+
+.projectInfoContainer {
+    padding-inline-end: 2rem;
+}
+
+.projectInfo {
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.projectImage {
+    position: relative;
+}
+
+.projectImage img {
+    box-shadow: 0px 4px 10.4615px var(--box-shadow-color);
+}
+
+.behance {
+    font-size: 32px;
+}
+
+.step {
+    background: var(--content-background-hex);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    width: 100%;
+    display: grid;
+    padding: 56px;
+    grid-template-columns: 50% 50%;
+}
+
+.stepInfo {
+    padding-inline: 2rem;
+}
+
+.step img {
+    border-radius: var(--border-radius);
+    object-fit: cover;
+    box-shadow: 0px 4px 10.4615px var(--box-shadow-color);
+}
+
+.stepHeading {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.stepSubheading {
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.stepDescription {
+    font-weight: 300;
+}
+
+.stepImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step:nth-child(even) {
+    background: var(--background-color);
+}
+
+.step:nth-child(odd) .stepImage {
+    order: -1;
+}
+
+@media only screen and (max-width: 960px) {
+    .projectContainer {
+        padding-inline: 1rem;
+    }
+
+    .processContainer {
+        /* padding-inline: 1rem; */
+    }
+
+    .projectInfoContainer {
+        padding-inline-end: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectGrid {
+        display: block;
+    }
+
+    .projectImage {
+        width: 100%;
+        height: 200px;
+    }
+
+    .step {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .stepImage {
+        margin-bottom: 1rem;
+    }
+
+    .step:nth-child(odd) .stepImage {
+        order: initial;
+    }
+
+    .stepInfo {
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        padding-bottom: 1rem;
+    }
+
+    .behance {
+        padding-bottom: 1rem;
+    }
+}

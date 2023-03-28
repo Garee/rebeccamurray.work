@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+    height: 100%;
+    box-shadow: 0px 4px 10.4615px var(--box-shadow-color);
+}
+
+.link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    box-shadow: var(--box-shadow);
+    animation: scale 200ms ease-in-out forwards;
+}
+
+.cardInfo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding);
+}
+
+.cardSubheading {
+    font-size: 22px;
+}
+
+.cardDescription {
+    font-weight: 300;
+}
+
+.cardHeading {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.cardImage {
+    height: 75%;
+    height: 246px;
+    width: 100%;
+}
+
+.cardImage img {
+    border-radius: var(--border-radius);
+    object-fit: cover;
+}
+
+@keyframes scale {
+    to {
+        transform: scale(1.02);
+    }
+}

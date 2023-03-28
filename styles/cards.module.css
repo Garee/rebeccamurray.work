@@ -1,0 +1,28 @@
+.cardsList {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1rem;
+    padding-inline-end: 1rem;
+}
+
+@media only screen and (max-width: 1280px) {
+    .cardsList {
+        grid-template-columns: 50% 50%;
+    }
+
+    .cardsList a:nth-child(1) {
+        grid-row: span 2;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .cardsList {
+        display: flex;
+        flex-direction: column;
+        padding-inline-end: 0;
+    }
+
+    .cardsList li {
+        margin-bottom: 2rem;
+    }
+}
