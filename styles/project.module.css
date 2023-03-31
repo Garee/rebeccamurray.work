@@ -100,8 +100,8 @@
         padding-inline: 1rem;
     }
 
-    .processContainer {
-        /* padding-inline: 1rem; */
+    .processContainer h2 {
+        padding-inline: 1rem;
     }
 
     .projectInfoContainer {
