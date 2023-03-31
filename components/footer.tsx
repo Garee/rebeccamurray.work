@@ -28,23 +28,35 @@ export default function Footer() {
             />
             <ul className={styles.links}>
                 <li>
-                    <Link href="https://www.instagram.com/streetpawdography/">
+                    <Link
+                        href="https://www.instagram.com/streetpawdography/"
+                        target="_blank"
+                    >
                         <i className="fa-brands fa-square-instagram"></i>
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="https://www.behance.net/rebeccamurraydesign">
+                    <Link
+                        href="https://www.behance.net/rebeccamurraydesign"
+                        target="_blank"
+                    >
                         <i className="fa-brands fa-square-behance"></i>
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://www.linkedin.com/in/rebeccamurraydesign/">
+                    <Link
+                        href="https://www.linkedin.com/in/rebeccamurraydesign/"
+                        target="_blank"
+                    >
                         <i className="fa-brands fa-linkedin"></i>
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://dribbble.com/RebeccaMurrayDesign">
+                    <Link
+                        href="https://dribbble.com/RebeccaMurrayDesign"
+                        target="_blank"
+                    >
                         <i className="fa-brands fa-square-dribbble"></i>
                     </Link>
                 </li>

@@ -44,7 +44,10 @@ export default function Panel({
                     <br />
                     {href && (
                         <div className={styles.panelLink}>
-                            Check it out <Link href={href}>here.</Link>
+                            Check it out{" "}
+                            <Link href={href} target="_blank">
+                                here.
+                            </Link>
                         </div>
                     )}
                 </div>

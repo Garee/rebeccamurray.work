@@ -34,7 +34,11 @@ export function Project({
                         <h3>{tagline}</h3>
                         <p className={styles.projectInfo}>{description}</p>
                         {href && (
-                            <Link href={href} className={styles.behance}>
+                            <Link
+                                href={href}
+                                target="_blank"
+                                className={styles.behance}
+                            >
                                 <i className="fa-brands fa-square-behance"></i>
                             </Link>
                         )}

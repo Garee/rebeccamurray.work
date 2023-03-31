@@ -5,7 +5,7 @@ import { CtaButton } from "./cta-button";
 
 export function AboutMe() {
     const onResumeBtnClick = useCallback(() => {
-        document.location.href = "/files/resume.pdf";
+        window.open("/files/rebecca-murray-ui-ux-designer.pdf", "_blank");
     }, []);
 
     return (
