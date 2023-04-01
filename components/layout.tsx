@@ -39,7 +39,18 @@ export function Layout({ title, children }: LayoutProps) {
                             <Link href="/about">About</Link>
                         </li>
                         <li className={styles.menuItem}>
-                            <Link href="#contact">Contact</Link>
+                            <Link
+                                href="#contact"
+                                onClick={() => {
+                                    document
+                                        .getElementById(
+                                            "react-burger-cross-btn"
+                                        )
+                                        ?.click();
+                                }}
+                            >
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                     <ThemeToggle />
