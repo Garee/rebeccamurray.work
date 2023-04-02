@@ -1,9 +1,9 @@
 import styles from "@/styles/case-study.module.css";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 interface CaseStudyProps {
-    imgSrc: string;
+    imgSrc: StaticImageData;
     heading: string;
     description: string;
 }

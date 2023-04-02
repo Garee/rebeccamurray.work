@@ -1,22 +1,25 @@
+import filmPhotograph from "@/public/images/film-photography.png";
+import illustration from "@/public/images/illustration.png";
+import musicalTheatre from "@/public/images/musical-theatre.png";
 import styles from "@/styles/hobbies.module.css";
 import { Card } from "./card";
 import { Cards } from "./cards";
 
 const hobbies = [
     {
-        imgSrc: "/images/film-photography.png",
+        imgSrc: filmPhotograph,
         heading: "Film Photography",
         description:
             "I use a 1970s Cosina for 35mm film photography. I love developing my own work in the darkroom as it requires a very methodical approach. I run an instagram page called @StreetPawDography.",
     },
     {
-        imgSrc: "/images/illustration.png",
+        imgSrc: illustration,
         heading: "Illustration and Design",
         description:
             "I love working in closed loop and sustainable ways. I create zero waste patterns and garments. I am always trying to create new looks to add to my wardrobe.",
     },
     {
-        imgSrc: "/images/musical-theatre.png",
+        imgSrc: musicalTheatre,
         heading: "Musical Theatre",
         description:
             "A huge fan of musical theatre, I love to help out amateur dramatic groups with their costume. As well as occasionally perform myself and dance it out on stage as part of the ensemble.",

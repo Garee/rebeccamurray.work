@@ -1,3 +1,4 @@
+import MP1Lrg from "@/public/images/MP1Lrg.png";
 import styles from "@/styles/greeting.module.css";
 import Image from "next/image";
 
@@ -27,7 +28,7 @@ export default function Greeting() {
                 </div>
                 <div className={styles.greetingImage}>
                     <Image
-                        src="/images/MP1Lrg.png"
+                        src={MP1Lrg}
                         fill
                         style={{ marginLeft: "80px", objectFit: "contain" }}
                         alt=""

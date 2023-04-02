@@ -1,9 +1,15 @@
+import AA1Lrg from "@/public/images/AA1Lrg.png";
+import dancein from "@/public/images/dancein.png";
+import HH1Lrg from "@/public/images/HH1Lrg.png";
+import mixtape from "@/public/images/mixtape.png";
+import SH1Lrg from "@/public/images/SH1Lrg.png";
+import swiftnote from "@/public/images/swiftnote.png";
 import styles from "@/styles/projects.module.css";
 import CaseStudies from "./case-studies";
 
 const caseStudies = [
     {
-        imgSrc: "/images/HH1Lrg.png",
+        imgSrc: HH1Lrg,
         heading: "HollyHock",
         subheading: "Hybrid Mobile Application",
         description:
@@ -11,7 +17,7 @@ const caseStudies = [
         href: "/work/hollyhock",
     },
     {
-        imgSrc: "/images/AA1Lrg.png",
+        imgSrc: AA1Lrg,
         heading: "Access Atlas",
         subheading: "Responsive Web Application",
         description:
@@ -19,7 +25,7 @@ const caseStudies = [
         href: "/work/accessatlas",
     },
     {
-        imgSrc: "/images/SH1Lrg.png",
+        imgSrc: SH1Lrg,
         heading: "Shoogle",
         subheading: "iOS Native Application",
         description:
@@ -27,7 +33,7 @@ const caseStudies = [
         href: "/work/shoogle",
     },
     {
-        imgSrc: "/images/dancein.png",
+        imgSrc: dancein,
         heading: "Dance'In",
         subheading: "iOS and Android App",
         description:
@@ -35,7 +41,7 @@ const caseStudies = [
         href: "/work/dancein",
     },
     {
-        imgSrc: "/images/swiftnote.png",
+        imgSrc: swiftnote,
         heading: "SwiftNote",
         subheading: "iOS App",
         description:
@@ -43,7 +49,7 @@ const caseStudies = [
         href: "/work/swiftnote",
     },
     {
-        imgSrc: "/images/mixtape.png",
+        imgSrc: mixtape,
         heading: "Mix Tape",
         subheading: "Hybrid App",
         description:

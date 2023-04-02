@@ -1,3 +1,4 @@
+import rebecca from "@/public/images/rebecca.png";
 import styles from "@/styles/about-me.module.css";
 import Image from "next/image";
 import { useCallback } from "react";
@@ -42,7 +43,7 @@ export function AboutMe() {
                 </div>
                 <div className={styles.aboutImage}>
                     <Image
-                        src="/images/rebecca.png"
+                        src={rebecca}
                         fill
                         sizes=""
                         style={{ objectFit: "cover", borderRadius: "10px" }}

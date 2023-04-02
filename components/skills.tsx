@@ -1,3 +1,5 @@
+import userExperience from "@/public/images/user-experience.png";
+import wireframing from "@/public/images/wireframing.png";
 import styles from "@/styles/skills.module.css";
 import Panel from "./panel";
 
@@ -8,10 +10,9 @@ const skills = [
         heading: "Animation (HTML, CSS, and Adobe Illustrator)",
         description:
             "I recently completed Frontend Development for Designers as part of my UI Design course with CareerFoundry. I can create neat animations to enhance the user experience such as the adapted SVG to the left. Isolating all the individual layers to ensure easy control and animations of shapes.",
-        imgSrc: "",
     },
     {
-        imgSrc: "/images/wireframing.png",
+        imgSrc: wireframing,
         type: "Wireframing",
         heading: "Sketching and Digitising",
         description:
@@ -19,7 +20,7 @@ const skills = [
         rtl: true,
     },
     {
-        imgSrc: "/images/user-experience.png",
+        imgSrc: userExperience,
         type: "User Experience",
         heading: "Research, Interviews, Personas and Flows",
         description:

@@ -1,10 +1,10 @@
 import styles from "@/styles/panel.module.css";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { Animation } from "./animation";
 
 interface PanelProps {
-    imgSrc: string;
+    imgSrc?: StaticImageData;
     type: string;
     heading: string;
     description: string;
@@ -32,7 +32,7 @@ export default function Panel({
                     maxHeight: "400px",
                 }}
             >
-                {!animation && <Image src={imgSrc} fill alt="" />}
+                {!animation && imgSrc && <Image src={imgSrc} fill alt="" />}
                 {animation && <Animation />}
             </div>
             <div className={rtl ? styles.panelInfoRtl : styles.panelInfo}>

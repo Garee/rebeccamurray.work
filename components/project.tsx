@@ -1,18 +1,18 @@
 import styles from "@/styles/project.module.css";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 export interface ProjectProps {
     name: string;
     tagline: string;
     description: string;
-    imgSrc: string;
+    imgSrc: StaticImageData;
     href?: string;
     steps?: Array<{
         heading: string;
         subheading?: string;
         description: string;
-        imgSrc?: string;
+        imgSrc?: StaticImageData;
         videoSrc?: string;
     }>;
 }

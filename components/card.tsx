@@ -1,12 +1,12 @@
 import styles from "@/styles/card.module.css";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 export interface CardProps {
     heading: string;
     subheading?: string;
     description?: string;
-    imgSrc: string;
+    imgSrc: StaticImageData;
     href?: string;
 }
 
