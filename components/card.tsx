@@ -20,7 +20,7 @@ export function Card({
     const card = (
         <div className={styles.card}>
             <div className={styles.cardImage} style={{ position: "relative" }}>
-                <Image src={imgSrc} fill alt={heading} />
+                <Image src={imgSrc} fill alt={heading} placeholder="blur" />
             </div>
             <div className={styles.cardInfo}>
                 {subheading && (

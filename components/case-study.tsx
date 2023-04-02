@@ -20,7 +20,7 @@ export default function CaseStudy({
                     className={styles.caseStudyImage}
                     style={{ position: "relative" }}
                 >
-                    <Image src={imgSrc} fill alt={heading} />
+                    <Image src={imgSrc} fill alt={heading} placeholder="blur" />
                 </div>
                 <div className={styles.caseStudyInfo}>
                     <div className={styles.caseStudyDescription}>

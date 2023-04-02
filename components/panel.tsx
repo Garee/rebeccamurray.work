@@ -32,7 +32,9 @@ export default function Panel({
                     maxHeight: "400px",
                 }}
             >
-                {!animation && imgSrc && <Image src={imgSrc} fill alt="" />}
+                {!animation && imgSrc && (
+                    <Image src={imgSrc} fill alt={heading} placeholder="blur" />
+                )}
                 {animation && <Animation />}
             </div>
             <div className={rtl ? styles.panelInfoRtl : styles.panelInfo}>

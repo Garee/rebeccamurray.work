@@ -47,7 +47,8 @@ export function AboutMe() {
                         fill
                         sizes=""
                         style={{ objectFit: "cover", borderRadius: "10px" }}
-                        alt=""
+                        alt="Rebecca Murray"
+                        placeholder="blur"
                     />
                 </div>
             </div>

@@ -48,7 +48,8 @@ export function Project({
                             src={imgSrc}
                             fill
                             style={{ objectFit: "cover", borderRadius: "10px" }}
-                            alt=""
+                            alt={name}
+                            placeholder="blur"
                         />
                     </div>
                 </div>
@@ -81,7 +82,12 @@ export function Project({
                                     }}
                                 >
                                     {step.imgSrc && (
-                                        <Image src={step.imgSrc} fill alt="" />
+                                        <Image
+                                            src={step.imgSrc}
+                                            fill
+                                            alt={step.heading}
+                                            placeholder="blur"
+                                        />
                                     )}
                                     {step.videoSrc && (
                                         <video controls>
