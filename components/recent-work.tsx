@@ -10,7 +10,7 @@ const snapshots = [
         imgSrc: LG1Lrg,
         heading: "iOS iPad LittleGiraffe Game",
         description:
-            "Daily UI design challenge day , design a calculator. I chose to take this prompt and design a children’s game UI formed of calculations that can be used by toddlers aged 2-5, using drag and drop design patterns as well as gamified rewards. Inspired by Cbeebies Playtime Island game range.",
+            "Daily UI design challenge day 4, design a calculator. I chose to take this prompt and design a children’s game UI formed of calculations that can be used by toddlers aged 2-5, using drag and drop design patterns as well as gamified rewards. Inspired by Cbeebies Playtime Island game range.",
         rtl: true,
         href: "https://dribbble.com/shots/20408562-DailyUI-Challenge-Day-4",
     },
