@@ -6,6 +6,13 @@ import Panel from "./panel";
 
 const snapshots = [
     {
+        animation: true,
+        type: "Frontend Development For Designers",
+        heading: "Animation (HTML, CSS, and Adobe Illustrator)",
+        description:
+            "I recently completed Frontend Development for Designers as part of my UI Design course with CareerFoundry. I can create neat animations to enhance the user experience such as the adapted SVG to the left. Isolating all the individual layers to ensure easy control and animations of shapes.",
+    },
+    {
         type: "Daily UI Design Challenge",
         imgSrc: LG1Lrg,
         heading: "iOS iPad LittleGiraffe Game",
