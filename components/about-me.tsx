@@ -15,8 +15,8 @@ export function AboutMe() {
                 <div className={styles.aboutInfoContainer}>
                     <h1>About Me</h1>
                     <h3>
-                        I&#39;m Rebecca (She/Her) and I am a UX/UI Designer
-                        based in Glasgow
+                        I&#39;m Rebecca and I am a UX/UI Designer based in
+                        Glasgow. My pronouns are she/her.
                     </h3>
                     <p className={styles.aboutInfo}>
                         Originally from the Outer Hebrides, I am a UX/UI
