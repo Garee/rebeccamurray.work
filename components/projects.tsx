@@ -14,7 +14,7 @@ const caseStudies = [
         subheading: "Hybrid Mobile Application",
         description:
             "Money saving app, aimed towards a younger market with design for delight and play at it's core.",
-        href: "/work/hollyhock",
+        href: "https://www.behance.net/gallery/154808069/HollyHock-Branding-and-UI-Case-Study",
     },
     {
         imgSrc: AA1Lrg,
@@ -22,7 +22,7 @@ const caseStudies = [
         subheading: "Responsive Web Application",
         description:
             "Location based maps application with a focus on accessibility for all users.",
-        href: "/work/accessatlas",
+        href: "https://www.behance.net/gallery/154813323/AccessAtlas-UXUI-Case-Study",
     },
     {
         imgSrc: SH1Lrg,
@@ -30,7 +30,7 @@ const caseStudies = [
         subheading: "iOS Native Application",
         description:
             "Playful messaging app with a focus on the user experience through animation and iOS design guidelines.",
-        href: "/work/shoogle",
+        href: "https://www.behance.net/gallery/155096059/Shoogle-iOS-Messaging-Application",
     },
     {
         imgSrc: dancein,
@@ -38,7 +38,7 @@ const caseStudies = [
         subheading: "iOS and Android App",
         description:
             "Dance booking application with social and sharing elements to benefit both users and dance studios. Two versions designed, for iOS and Android. ",
-        href: "/work/dancein",
+        href: "https://www.behance.net/gallery/154807661/DanceIn-Android-and-iOS-Case-Study",
     },
     {
         imgSrc: swiftnote,
@@ -54,7 +54,7 @@ const caseStudies = [
         subheading: "Hybrid App",
         description:
             "UI design for an 80s music player app with a retro aesthetic. Combining classic festures with fun easter eggs.",
-        href: "/work/mixtape",
+        href: "https://www.behance.net/gallery/154772527/MixTape-80s-Music-App-Case-Study",
     },
 ];
 

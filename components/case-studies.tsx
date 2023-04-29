@@ -11,19 +11,19 @@ const defaultCaseStudies = [
         imgSrc: HH1Lrg,
         heading: "HollyHock",
         subheading: "Hybrid Mobile Application",
-        href: "/work/hollyhock",
+        href: "https://www.behance.net/gallery/154808069/HollyHock-Branding-and-UI-Case-Study",
     },
     {
         imgSrc: AA1Lrg,
         heading: "AccessAtlas",
         subheading: "Responsive Web Application",
-        href: "/work/accessatlas",
+        href: "https://www.behance.net/gallery/154813323/AccessAtlas-UXUI-Case-Study",
     },
     {
         imgSrc: SH1Lrg,
         heading: "Shoogle",
         subheading: "iOS Native Application",
-        href: "/work/shoogle",
+        href: "https://www.behance.net/gallery/155096059/Shoogle-iOS-Messaging-Application",
     },
 ];
 
