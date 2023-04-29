@@ -15,7 +15,7 @@ const defaultCaseStudies = [
     },
     {
         imgSrc: AA1Lrg,
-        heading: "Access Atlas",
+        heading: "AccessAtlas",
         subheading: "Responsive Web Application",
         href: "/work/accessatlas",
     },

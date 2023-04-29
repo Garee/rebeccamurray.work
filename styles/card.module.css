@@ -11,7 +11,7 @@
     color: inherit;
 }
 
-.card:hover {
+.cardLink:hover {
     box-shadow: var(--box-shadow);
     animation: scale 200ms ease-in-out forwards;
 }

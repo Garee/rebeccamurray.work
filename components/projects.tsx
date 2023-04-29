@@ -1,8 +1,8 @@
 import AA1Lrg from "@/public/images/AA1Lrg.png";
-import dancein from "@/public/images/dancein.png";
 import HH1Lrg from "@/public/images/HH1Lrg.png";
-import mixtape from "@/public/images/mixtape.png";
 import SH1Lrg from "@/public/images/SH1Lrg.png";
+import dancein from "@/public/images/dancein.png";
+import mixtape from "@/public/images/mixtape.png";
 import swiftnote from "@/public/images/swiftnote.png";
 import styles from "@/styles/projects.module.css";
 import CaseStudies from "./case-studies";
@@ -18,7 +18,7 @@ const caseStudies = [
     },
     {
         imgSrc: AA1Lrg,
-        heading: "Access Atlas",
+        heading: "AccessAtlas",
         subheading: "Responsive Web Application",
         description:
             "Location based maps application with a focus on accessibility for all users.",
