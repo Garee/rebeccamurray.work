@@ -3,7 +3,7 @@
     padding-inline: var(--side-padding);
     padding-top: 70px;
     padding-bottom: 70px;
-    background: var(--background-hex);
+    background: var(--footer-background-hex);
 }
 
 .info {

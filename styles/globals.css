@@ -4,8 +4,11 @@
     --font-family: "Open Sans", Helvetica, sans-serif;
     --heading-font-family: "Quicksand", Helvetica, sans-serif;
     --foreground-hex: #050505;
-    --body-background-hex: #ffffff;
-    --background-hex: #fffcfb;
+    /* --body-background-hex: #ffffff; */
+    --body-background-hex: #f6f6f6;
+    /* --background-hex: #fffcfb; */
+    --background-hex: #f6f6f6;
+    --footer-background-hex: #ffffff;
     --content-background-hex: #f6f6f6;
     --highlight-color-hex: #2b7bd9;
     --side-padding: 80px;
@@ -17,10 +20,13 @@
 }
 
 :root body.dark {
-    --background-hex: #15191d;
+    /* --background-hex: #15191d; */
+    --background-hex: #212529;
     --foreground-hex: #fffcfb;
     --content-background-hex: #212529;
-    --body-background-hex: #0f1214;
+    /* --body-background-hex: #0f1214; */
+    --body-background-hex: #212529;
+    --footer-background-hex: #15191d;
     --box-shadow-color: rgba(0, 0, 0, 0.9);
 }
 
