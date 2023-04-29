@@ -57,19 +57,19 @@ a:hover {
 
 h1 {
     font-family: var(--heading-font-family);
-    font-size: 54px;
+    font-size: 50px;
     padding-bottom: 2rem;
 }
 
 h2 {
     font-family: var(--heading-font-family);
-    font-size: 44px;
+    font-size: 40px;
     padding-bottom: 2rem;
 }
 
 h3 {
     font-family: var(--heading-font-family);
-    font-size: 24px;
+    font-size: 20px;
     padding-bottom: 2rem;
 }
 
@@ -79,14 +79,14 @@ ul {
 
 @media only screen and (max-width: 960px) {
     h1 {
-        font-size: 46px;
+        font-size: 42px;
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
