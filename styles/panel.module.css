@@ -1,5 +1,5 @@
 .panelContainer {
-    background: var(--background-hex);
+    background: var(--logo-background-hex);
     border-radius: var(--border-radius);
     margin-bottom: 1rem;
     display: grid;

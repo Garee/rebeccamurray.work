@@ -9,6 +9,7 @@
     /* --background-hex: #fffcfb; */
     --background-hex: #f6f6f6;
     --footer-background-hex: #ffffff;
+    --logo-background-hex: #ffffff;
     --content-background-hex: #f6f6f6;
     --highlight-color-hex: #2b7bd9;
     --side-padding: 80px;
@@ -27,6 +28,7 @@
     /* --body-background-hex: #0f1214; */
     --body-background-hex: #212529;
     --footer-background-hex: #15191d;
+    --logo-background-hex: #15191d;
     --box-shadow-color: rgba(0, 0, 0, 0.9);
 }
 
