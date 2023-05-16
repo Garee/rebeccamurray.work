@@ -30,7 +30,7 @@ export default function Greeting() {
                     <Image
                         src={MP1Lrg}
                         fill
-                        style={{ marginLeft: "80px", objectFit: "contain" }}
+                        style={{ paddingLeft: "80px", objectFit: "contain" }}
                         alt="Wave Design on Apple Watch"
                         placeholder="blur"
                     />
